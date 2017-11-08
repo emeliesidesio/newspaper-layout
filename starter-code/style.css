@@ -50,6 +50,18 @@ header {
   }
 }
 
+@media only screen and (min-width: 900px) {
+.author1 {
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+.author2 {
+  display: none;
+  }
+}
+
 #falana {
   background: url(./images/00-promo-falana.jpg);
   background-size: cover;
