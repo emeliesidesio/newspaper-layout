@@ -1,3 +1,7 @@
+*  {
+  box-sizing: border-box;
+}
+
 html {
   background: #f2f1f4;
   color: #19171c;
@@ -15,9 +19,94 @@ header {
 .tagline {
   font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
   font-size: 18px;
-  width: 600px;
 }
 
 .logo img {
   width: 60px;
+}
+
+.container {
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+
+.box {
+  width: 100%;
+  position: relative;
+  padding-top: 100%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+.container {
+  width: 50%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+.container {
+  width: 30%;
+  }
+}
+
+#falana {
+  background: url(./images/00-promo-falana.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#travel {
+  background: url(./images/00-promo-travel-diary.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#party {
+  background: url(./images/00-promo-party-decor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#style {
+  background: url(./images/00-promo-street-style.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#zendaya {
+  background: url(./images/00-promo-zendaya.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#lipstick {
+  background: url(./images/00-promo-image-ysl-lipstick.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#drive {
+  background: url(./images/00-promo-drive.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  background: white;
+  opacity: 0.8;
+  padding: 5px;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+span {
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+
+a {
+  color: black;
 }
