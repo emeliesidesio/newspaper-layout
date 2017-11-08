@@ -68,16 +68,20 @@ header {
   background-repeat: no-repeat;
 }
 
+#falana:hover {
+  margin-top: -2px;
+  position: relative;
+}
+
 #travel {
   background: url(./images/00-promo-travel-diary.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#party {
-  background: url(./images/00-promo-party-decor.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+#travel:hover {
+  margin-top: -2px;
+  position: relative;
 }
 
 #style {
@@ -92,16 +96,31 @@ header {
   background-repeat: no-repeat;
 }
 
+#zendaya:hover {
+  margin-top: -2px;
+  position: relative;
+}
+
 #lipstick {
   background: url(./images/00-promo-image-ysl-lipstick.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+#lipstick:hover {
+  margin-top: -2px;
+  position: relative;
+}
+
 #drive {
   background: url(./images/00-promo-drive.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#drive:hover {
+  margin-top: -2px;
+  position: relative;
 }
 
 h1 {
